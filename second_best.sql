@@ -12,6 +12,7 @@ VALUES (1, 'Alice', 60000.00);
 -- Query data
 SELECT DISTINCT base_salary AS "Second Highest Salary"
 FROM employees
-ORDER BY base_salary DESC
-LIMIT 1
-OFFSET 1;
+ORDER BY 
+    base_salary DESC
+    LIMIT 1
+    OFFSET 1
